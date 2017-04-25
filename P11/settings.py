@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'P11.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'FACT',
+        #'NAME': 'fact',
         #'USER': 'sid',
         #'PASSWORD': 'Postgres',
         #'HOST': 'LOCALHOST',
