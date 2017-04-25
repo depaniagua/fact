@@ -19,6 +19,4 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^orden/$', views.orden, name='crearOrden'),
     url(r'^crearOrden/$', views.crearOrden, name='crearOrden'),
-
-
 ]

@@ -1,4 +1,7 @@
 import datetime
+import json
+from FACT import serializers
+from django.core import serializers
 from .models import Orden
 from django.shortcuts import render
 from rest_framework import generics
@@ -27,6 +30,9 @@ def orden(request):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
+    elif request.method == 'GET':
+        orden = Orden.objects.all()
+        return HttpResponse(serializers.serialize("json", orden))
 
 
 def crearOrden(request):
