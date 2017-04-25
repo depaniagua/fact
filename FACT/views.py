@@ -1,6 +1,5 @@
 import datetime
 from .models import Orden
-import serializer as serializer
 from django.shortcuts import render
 from rest_framework import generics
 from rest_framework import viewsets
