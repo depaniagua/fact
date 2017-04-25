@@ -26,6 +26,7 @@ def orden(request):
     if request.method == 'POST':
         data = JSONParser().parse(request)
         serializer = OrdenSerializer(data=data)
+        print (data)
         print (serializer)
         if serializer.is_valid():
             serializer.save()
