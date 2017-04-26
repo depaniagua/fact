@@ -6,4 +6,4 @@ from .models import Orden
 class OrdenSerializer(serializers.ModelSerializer):
     class Meta:
         model = Orden
-        fields = ('id','proveedor')
+        fields = ('id','descripcion','proveedor','costo')

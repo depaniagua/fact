@@ -4,5 +4,7 @@ from django.db import models
 
 from django.db import models
 class Orden(models.Model):
-    numero = models.IntegerField
+    id= models.IntegerField
+    descripcion= models.CharField(max_length=1000)
     proveedor = models.CharField(max_length=1000)
+    costo= models.IntegerField
