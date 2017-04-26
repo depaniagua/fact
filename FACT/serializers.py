@@ -7,4 +7,4 @@ class OrdenSerializer(serializers.ModelSerializer):
     class Meta:
         model = Orden
         #fields = ('id','proveedor')
-        fields = ('descripcion')
+        fields = ('cantidad','descripcion')
