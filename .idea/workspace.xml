@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Laboratorio/ScientificLab/laboratorio/templates/laboratorio/base.html" afterPath="$PROJECT_DIR$/../Laboratorio/ScientificLab/laboratorio/templates/laboratorio/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Laboratorio/ScientificLab/laboratorio/tests/frontEnd/geckodriver.log" afterPath="$PROJECT_DIR$/../Laboratorio/ScientificLab/laboratorio/tests/frontEnd/geckodriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Laboratorio/ScientificLab/proyLaboratorio/settings.py" afterPath="$PROJECT_DIR$/../Laboratorio/ScientificLab/proyLaboratorio/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/P11/settings.py" afterPath="$PROJECT_DIR$/P11/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/FACT/templates/fact/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="41" />
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -58,7 +57,17 @@
         <entry file="file://$PROJECT_DIR$/P11/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="139" column="53" lean-forward="false" selection-start-line="139" selection-start-column="53" selection-end-line="139" selection-end-column="53" />
+              <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Laboratorio/ScientificLab/proyLaboratorio/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -88,6 +97,7 @@
       <find>labor</find>
       <find>filtrarProyectos</find>
       <find>static</find>
+      <find>static_</find>
       <find>contro</find>
     </findStrings>
   </component>
@@ -936,13 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Laboratorio/ScientificLab/proyLaboratorio/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="76" column="60" lean-forward="false" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Laboratorio/ScientificLab/Procfile.windows">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1084,10 +1087,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Laboratorio/ScientificLab/proyLaboratorio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FACT/templates/fact/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="41" />
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1095,7 +1106,7 @@
     <entry file="file://$PROJECT_DIR$/P11/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
-          <caret line="139" column="53" lean-forward="false" selection-start-line="139" selection-start-column="53" selection-end-line="139" selection-end-column="53" />
+          <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
           <folding />
         </state>
       </provider>
