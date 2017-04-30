@@ -21,20 +21,25 @@ def index(request):
     context = {'lista_imagenes': lista_imagenes}
     return render(request, 'fact/index.html', context)
 
-@csrf_exempt
-def orden(request):
-    if request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = OrdenSerializer(data=data)
-        print (data)
-        print (serializer)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
-    elif request.method == 'GET':
+#@csrf_exempt
+#def orden(request):
+#    if request.method == 'POST':
+#        data = JSONParser().parse(request)
+#        serializer = OrdenSerializer(data=data)
+#        print (data)
+#        print (serializer)
+#        if serializer.is_valid():
+#            serializer.save()
+#            return JsonResponse(serializer.data, status=201)
+#        return JsonResponse(serializer.errors, status=400)
+#    elif request.method == 'GET':
+#        orden = Orden.objects.all()
+#        return HttpResponse(serializers.serialize("json", orden))
+class OrdenLista(generics.ListAPIView):
+    serializer_class = OrdenSerializer
+    def get_queryset(self):
         orden = Orden.objects.all()
-        return HttpResponse(serializers.serialize("json", orden))
+        return orden
 
 
 def crearOrden(request):
