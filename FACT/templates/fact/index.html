@@ -23,7 +23,7 @@
     <script src="{% static 'js/factController.js'%} "></script>
     <script type="application/javascript">
         var urlAll = "{% url 'fact:ListarOrdenes'%}";
-        var host ="http://{{ request.META.HTTP_HOST }}";
+        var host ="https://{{ request.META.HTTP_HOST }}";
         $(document).ready(function () {
             listarOrdenes(urlAll);
         });
